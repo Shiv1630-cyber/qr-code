@@ -1,0 +1,42 @@
+main{
+    height: 100vh;
+    max-width: 100%;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap: 1px;
+    
+  }
+  section{  
+    height: 60vh;
+    max-width: 370px;
+    margin: 4px auto;
+    text-align: center;
+    background-color:hsl(0, 0%, 100%);
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 15px;
+    font-family:calc();
+    
+  }
+  picture{
+    height: 40vh;
+  }
+  picture img{
+    height: inherit; 
+    width: auto;
+    border-radius: 10px;
+
+  }
+  h2{
+
+    font-family: "Outfit", sans-serif;
+    font-weight:700;
+  }
+  h5{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+
+  }
